@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6C055C28996942002CD7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C055B28996942002CD7C3 /* AppDelegate.swift */; };
+		7E6C055E28996942002CD7C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C055D28996942002CD7C3 /* SceneDelegate.swift */; };
+		7E6C056328996942002CD7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6C056128996942002CD7C3 /* Main.storyboard */; };
+		7E6C056628996942002CD7C3 /* Night_Hack_6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C056428996942002CD7C3 /* Night_Hack_6.xcdatamodeld */; };
+		7E6C056828996945002CD7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6C056728996945002CD7C3 /* Assets.xcassets */; };
+		7E6C056B28996945002CD7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6C056928996945002CD7C3 /* LaunchScreen.storyboard */; };
+		7E6C057628996945002CD7C3 /* Night_Hack_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C057528996945002CD7C3 /* Night_Hack_6Tests.swift */; };
+		7E6C058028996945002CD7C3 /* Night_Hack_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C057F28996945002CD7C3 /* Night_Hack_6UITests.swift */; };
+		7E6C058228996945002CD7C3 /* Night_Hack_6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C058128996945002CD7C3 /* Night_Hack_6UITestsLaunchTests.swift */; };
+		7E6C059528996C11002CD7C3 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C059428996C11002CD7C3 /* ToDoTableViewController.swift */; };
+		7E6C059728997037002CD7C3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C059628997037002CD7C3 /* ToDo.swift */; };
+		7E6C0599289971D1002CD7C3 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C0598289971D1002CD7C3 /* AddToDoViewController.swift */; };
+		7E6C059B28997633002CD7C3 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C059A28997633002CD7C3 /* CompleteToDoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6C057228996945002CD7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6C055028996942002CD7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6C055728996942002CD7C3;
+			remoteInfo = "Night Hack 6";
+		};
+		7E6C057C28996945002CD7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6C055028996942002CD7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6C055728996942002CD7C3;
+			remoteInfo = "Night Hack 6";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E6C055828996942002CD7C3 /* Night Hack 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Hack 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6C055B28996942002CD7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E6C055D28996942002CD7C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E6C056228996942002CD7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E6C056528996942002CD7C3 /* Night_Hack_6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Night_Hack_6.xcdatamodel; sourceTree = "<group>"; };
+		7E6C056728996945002CD7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6C056A28996945002CD7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E6C056C28996945002CD7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6C057128996945002CD7C3 /* Night Hack 6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Night Hack 6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6C057528996945002CD7C3 /* Night_Hack_6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_Hack_6Tests.swift; sourceTree = "<group>"; };
+		7E6C057B28996945002CD7C3 /* Night Hack 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Night Hack 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6C057F28996945002CD7C3 /* Night_Hack_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_Hack_6UITests.swift; sourceTree = "<group>"; };
+		7E6C058128996945002CD7C3 /* Night_Hack_6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_Hack_6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E6C059428996C11002CD7C3 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		7E6C059628997037002CD7C3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		7E6C0598289971D1002CD7C3 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		7E6C059A28997633002CD7C3 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6C055528996942002CD7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C056E28996945002CD7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C057828996945002CD7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6C054F28996942002CD7C3 = {
+			isa = PBXGroup;
+			children = (
+				7E6C055A28996942002CD7C3 /* Night Hack 6 */,
+				7E6C057428996945002CD7C3 /* Night Hack 6Tests */,
+				7E6C057E28996945002CD7C3 /* Night Hack 6UITests */,
+				7E6C055928996942002CD7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6C055928996942002CD7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C055828996942002CD7C3 /* Night Hack 6.app */,
+				7E6C057128996945002CD7C3 /* Night Hack 6Tests.xctest */,
+				7E6C057B28996945002CD7C3 /* Night Hack 6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6C055A28996942002CD7C3 /* Night Hack 6 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C055B28996942002CD7C3 /* AppDelegate.swift */,
+				7E6C055D28996942002CD7C3 /* SceneDelegate.swift */,
+				7E6C056128996942002CD7C3 /* Main.storyboard */,
+				7E6C059628997037002CD7C3 /* ToDo.swift */,
+				7E6C059428996C11002CD7C3 /* ToDoTableViewController.swift */,
+				7E6C0598289971D1002CD7C3 /* AddToDoViewController.swift */,
+				7E6C059A28997633002CD7C3 /* CompleteToDoViewController.swift */,
+				7E6C056728996945002CD7C3 /* Assets.xcassets */,
+				7E6C056928996945002CD7C3 /* LaunchScreen.storyboard */,
+				7E6C056C28996945002CD7C3 /* Info.plist */,
+				7E6C056428996942002CD7C3 /* Night_Hack_6.xcdatamodeld */,
+			);
+			path = "Night Hack 6";
+			sourceTree = "<group>";
+		};
+		7E6C057428996945002CD7C3 /* Night Hack 6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C057528996945002CD7C3 /* Night_Hack_6Tests.swift */,
+			);
+			path = "Night Hack 6Tests";
+			sourceTree = "<group>";
+		};
+		7E6C057E28996945002CD7C3 /* Night Hack 6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C057F28996945002CD7C3 /* Night_Hack_6UITests.swift */,
+				7E6C058128996945002CD7C3 /* Night_Hack_6UITestsLaunchTests.swift */,
+			);
+			path = "Night Hack 6UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6C055728996942002CD7C3 /* Night Hack 6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6C058528996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6" */;
+			buildPhases = (
+				7E6C055428996942002CD7C3 /* Sources */,
+				7E6C055528996942002CD7C3 /* Frameworks */,
+				7E6C055628996942002CD7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Night Hack 6";
+			productName = "Night Hack 6";
+			productReference = 7E6C055828996942002CD7C3 /* Night Hack 6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E6C057028996945002CD7C3 /* Night Hack 6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6C058828996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6Tests" */;
+			buildPhases = (
+				7E6C056D28996945002CD7C3 /* Sources */,
+				7E6C056E28996945002CD7C3 /* Frameworks */,
+				7E6C056F28996945002CD7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6C057328996945002CD7C3 /* PBXTargetDependency */,
+			);
+			name = "Night Hack 6Tests";
+			productName = "Night Hack 6Tests";
+			productReference = 7E6C057128996945002CD7C3 /* Night Hack 6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6C057A28996945002CD7C3 /* Night Hack 6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6C058B28996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6UITests" */;
+			buildPhases = (
+				7E6C057728996945002CD7C3 /* Sources */,
+				7E6C057828996945002CD7C3 /* Frameworks */,
+				7E6C057928996945002CD7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6C057D28996945002CD7C3 /* PBXTargetDependency */,
+			);
+			name = "Night Hack 6UITests";
+			productName = "Night Hack 6UITests";
+			productReference = 7E6C057B28996945002CD7C3 /* Night Hack 6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6C055028996942002CD7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7E6C055728996942002CD7C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7E6C057028996945002CD7C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7E6C055728996942002CD7C3;
+					};
+					7E6C057A28996945002CD7C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7E6C055728996942002CD7C3;
+					};
+				};
+			};
+			buildConfigurationList = 7E6C055328996942002CD7C3 /* Build configuration list for PBXProject "Night Hack 6" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E6C054F28996942002CD7C3;
+			productRefGroup = 7E6C055928996942002CD7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E6C055728996942002CD7C3 /* Night Hack 6 */,
+				7E6C057028996945002CD7C3 /* Night Hack 6Tests */,
+				7E6C057A28996945002CD7C3 /* Night Hack 6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6C055628996942002CD7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6C056B28996945002CD7C3 /* LaunchScreen.storyboard in Resources */,
+				7E6C056828996945002CD7C3 /* Assets.xcassets in Resources */,
+				7E6C056328996942002CD7C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C056F28996945002CD7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C057928996945002CD7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6C055428996942002CD7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6C055C28996942002CD7C3 /* AppDelegate.swift in Sources */,
+				7E6C059528996C11002CD7C3 /* ToDoTableViewController.swift in Sources */,
+				7E6C056628996942002CD7C3 /* Night_Hack_6.xcdatamodeld in Sources */,
+				7E6C059B28997633002CD7C3 /* CompleteToDoViewController.swift in Sources */,
+				7E6C059728997037002CD7C3 /* ToDo.swift in Sources */,
+				7E6C0599289971D1002CD7C3 /* AddToDoViewController.swift in Sources */,
+				7E6C055E28996942002CD7C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C056D28996945002CD7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6C057628996945002CD7C3 /* Night_Hack_6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6C057728996945002CD7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6C058028996945002CD7C3 /* Night_Hack_6UITests.swift in Sources */,
+				7E6C058228996945002CD7C3 /* Night_Hack_6UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6C057328996945002CD7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6C055728996942002CD7C3 /* Night Hack 6 */;
+			targetProxy = 7E6C057228996945002CD7C3 /* PBXContainerItemProxy */;
+		};
+		7E6C057D28996945002CD7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6C055728996942002CD7C3 /* Night Hack 6 */;
+			targetProxy = 7E6C057C28996945002CD7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6C056128996942002CD7C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6C056228996942002CD7C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E6C056928996945002CD7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6C056A28996945002CD7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6C058328996945002CD7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E6C058428996945002CD7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E6C058628996945002CD7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Night Hack 6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E6C058728996945002CD7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Night Hack 6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E6C058928996945002CD7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Night Hack 6.app/Night Hack 6";
+			};
+			name = Debug;
+		};
+		7E6C058A28996945002CD7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Night Hack 6.app/Night Hack 6";
+			};
+			name = Release;
+		};
+		7E6C058C28996945002CD7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Night Hack 6";
+			};
+			name = Debug;
+		};
+		7E6C058D28996945002CD7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Night-Hack-6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Night Hack 6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6C055328996942002CD7C3 /* Build configuration list for PBXProject "Night Hack 6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6C058328996945002CD7C3 /* Debug */,
+				7E6C058428996945002CD7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6C058528996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6C058628996945002CD7C3 /* Debug */,
+				7E6C058728996945002CD7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6C058828996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6C058928996945002CD7C3 /* Debug */,
+				7E6C058A28996945002CD7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6C058B28996945002CD7C3 /* Build configuration list for PBXNativeTarget "Night Hack 6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6C058C28996945002CD7C3 /* Debug */,
+				7E6C058D28996945002CD7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E6C056428996942002CD7C3 /* Night_Hack_6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E6C056528996942002CD7C3 /* Night_Hack_6.xcdatamodel */,
+			);
+			currentVersion = 7E6C056528996942002CD7C3 /* Night_Hack_6.xcdatamodel */;
+			path = Night_Hack_6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E6C055028996942002CD7C3 /* Project object */;
+}
